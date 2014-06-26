@@ -17,8 +17,14 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'bling/vim-airline'
 Plugin 'yegappan/mru'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'embear/vim-localvimrc'
+Plugin 'tpope/vim-fugitive'
+Plugin 'jmcantrell/vim-virtualenv'
+Plugin 'derekwyatt/vim-scala'
+Plugin 'nathanaelkane/vim-indent-guides'
 
 call vundle#end()
+set rtp+=~/.vim/bundle/_local_
 
 " }}}
 
@@ -66,7 +72,7 @@ set foldlevelstart=1
 set foldcolumn=1
 set foldminlines=5
 set numberwidth=2
-set relativenumber
+"set relativenumber
 
 set window=39
 set winminheight=0
@@ -179,7 +185,11 @@ let g:dbext_default_profile_pgsql="type=PGSQL:user=postgres:dbname=postgres"
 let g:dbext_default_profile_mysql="type=MYSQL:user=root:host=localhost"
 let g:dbext_default_DBI_max_rows=0
 
-let g:airline_powerline_fonts=1
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#branch#enabled = 1
+let g:airline#extensions#syntastic#enabled = 1
+let g:airline#extensions#hunks#enabled = 0
+let g:airline#extensions#virtualenv#enabled = 1
 
 let g:sql_type_default="mysql"
 let g:sqlutil_keyword_case='\l'
