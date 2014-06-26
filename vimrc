@@ -16,6 +16,7 @@ Plugin 'vim-scripts/Align'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'bling/vim-airline'
 Plugin 'yegappan/mru'
+Plugin 'airblade/vim-gitgutter'
 
 call vundle#end()
 
