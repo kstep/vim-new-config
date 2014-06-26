@@ -22,6 +22,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'jmcantrell/vim-virtualenv'
 Plugin 'derekwyatt/vim-scala'
 Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'drmingdrmer/xptemplate'
 
 call vundle#end()
 set rtp+=~/.vim/bundle/_local_
