@@ -81,6 +81,7 @@ set ruler
 set laststatus=2
 set visualbell
 set noerrorbells
+set cursorline
 
 set tildeop
 set nrformats=hex,alpha
