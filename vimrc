@@ -15,7 +15,9 @@ Plugin 'scrooloose/syntastic'
 Plugin 'vim-scripts/Align'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'bling/vim-airline'
-Plugin 'yegappan/mru'
+"Plugin 'yegappan/mru'
+Plugin 'Shougo/unite.vim'
+Plugin 'Shougo/neomru.vim'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'embear/vim-localvimrc'
 Plugin 'tpope/vim-fugitive'
@@ -157,7 +159,7 @@ map <C-A-x> ciw<C-R>=getreg('')/2<CR><Esc>
 map <A-a> @="yyp"<CR>
 
 map <C-q> :quit<CR>
-map <F11> :MRU<CR>
+map <F11> :Unite file_mru<CR>
 
 vmap ,aa :Align =><CR>
 vmap ,a= :Align =<CR>
