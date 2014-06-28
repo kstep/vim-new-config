@@ -240,6 +240,7 @@ let g:indent_guides_start_level = 2
 " Custom highlighting {{{
 set background=light
 colorscheme solarized
+hi SignColumn ctermbg=lightgrey
 "colorscheme thegoodluck
 "colorscheme chocolate
 " }}}
