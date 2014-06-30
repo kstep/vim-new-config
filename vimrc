@@ -7,24 +7,24 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-Plugin 'gmarik/Vundle.vim'
-Plugin 'kstep/gitgraph-vim-plugin'
-Plugin 'scrooloose/nerdcommenter'
+Plugin 'Shougo/neomru.vim'
+Plugin 'Shougo/unite.vim'
 Plugin 'Valloric/YouCompleteMe'
-Plugin 'scrooloose/syntastic'
-Plugin 'vim-scripts/Align'
+Plugin 'airblade/vim-gitgutter'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'bling/vim-airline'
-"Plugin 'yegappan/mru'
-Plugin 'Shougo/unite.vim'
-Plugin 'Shougo/neomru.vim'
-Plugin 'airblade/vim-gitgutter'
-Plugin 'embear/vim-localvimrc'
-Plugin 'tpope/vim-fugitive'
-Plugin 'jmcantrell/vim-virtualenv'
 Plugin 'derekwyatt/vim-scala'
-Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'drmingdrmer/xptemplate'
+Plugin 'embear/vim-localvimrc'
+Plugin 'emezeske/manpageview'
+Plugin 'gmarik/Vundle.vim'
+Plugin 'jmcantrell/vim-virtualenv'
+Plugin 'kstep/gitgraph-vim-plugin'
+Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'scrooloose/syntastic'
+Plugin 'tpope/vim-fugitive'
+Plugin 'vim-scripts/Align'
 
 call vundle#end()
 set rtp+=~/.vim/bundle/_local_
