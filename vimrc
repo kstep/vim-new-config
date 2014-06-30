@@ -27,7 +27,6 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'vim-scripts/Align'
 
 call vundle#end()
-set rtp+=~/.vim/bundle/_local_
 
 " }}}
 
