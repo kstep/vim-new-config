@@ -258,6 +258,9 @@ let g:gitgutter_sign_modified         = '┃±'
 let g:gitgutter_sign_removed          = '┃…'
 let g:gitgutter_sign_modified_removed = '┃−'
 
+let g:EclimCompletionMethod = 'omnifunc'
+let g:EclimJavaCompleteTmpFile = 0
+
 " vim: set ft=vim :
 
 fun! MassVisualChange()
