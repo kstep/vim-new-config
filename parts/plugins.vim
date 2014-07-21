@@ -21,6 +21,7 @@ Plugin 'mattn/webapi-vim'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/syntastic'
+Plugin 'sgur/unite-qf'
 Plugin 'tpope/vim-fugitive'
 Plugin 'vim-scripts/Align'
 
