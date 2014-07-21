@@ -39,9 +39,10 @@ let g:perl_fold=1
 let g:perl_nofold_subs=1
 
 let g:po_translator = 'Konstantin Stepanov <me@kstep.me>'
+
 let g:syntastic_enable_signs=1
-let g:syntastic_python_flake8_args='--ignore=E501,W391'
-"let g:syntastic_python_flake8_args='--ignore=E302,E303,E501,W391,E127,E128,E221,E126,E251,E124,E261,E401,W404,E301,E123,E401'
+let g:syntastic_warning_symbol='●'
+let g:syntastic_error_symbol='●'
 let g:localvimrc_ask=0
 let g:localvimrc_sandbox=0
 let g:gitgraph_layout = { 'g':[20,'la'], 's':[-30,'tl'], 't':[5,'rb'], 'd':[0,'br'],
@@ -67,5 +68,5 @@ let g:gitgutter_sign_removed          = '┃…'
 let g:gitgutter_sign_modified_removed = '┃−'
 
 let g:EclimCompletionMethod = 'omnifunc'
-let g:EclimJavaCompleteTmpFile = 0
+"let g:EclimJavaCompleteTmpFile = 0
 
