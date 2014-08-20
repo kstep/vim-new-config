@@ -18,7 +18,9 @@ map <C-A-x> ciw<C-R>=getreg('')/2<CR><Esc>
 map <A-a> @="yyp"<CR>
 
 map <C-q> :quit<CR>
+map <F10> :Unite qf<CR>
 map <F11> :Unite file_mru<CR>
+map <F12> :Unite file_rec<CR>
 
 vmap ,aa :Align =><CR>
 vmap ,a= :Align =<CR>
