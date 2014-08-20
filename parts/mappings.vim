@@ -27,10 +27,10 @@ vmap ,a= :Align =<CR>
 
 nmap ,fc :if stridx(&syntax,'.conflict')<0<Bar>setl syntax+=.conflict<Bar>endif<CR>:vimgrep "^<<<<<<<" %:p<CR>:copen<CR><CR>
 
-imap <C-\> <C-^>
-cmap <C-\> <C-^>
-smap <C-\> <C-^>
-nmap <C-\> a<C-^><Esc>
+"imap <C-\> <C-^>
+"cmap <C-\> <C-^>
+"smap <C-\> <C-^>
+"nmap <C-\> a<C-^><Esc>
 
 cabbr W w
 cabbr Q q
