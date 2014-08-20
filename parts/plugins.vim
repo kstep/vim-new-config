@@ -23,6 +23,9 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/syntastic'
 Plugin 'sgur/unite-qf'
 Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-unimpaired'
+Plugin 'tsukkee/unite-tag'
 Plugin 'vim-scripts/Align'
+Plugin 'wting/rust.vim'
 
 call vundle#end()
