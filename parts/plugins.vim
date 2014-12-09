@@ -4,6 +4,8 @@ call plug#begin('~/.vim/bundle')
 
 Plug 'Shougo/neomru.vim'
 Plug 'Shougo/unite.vim'
+Plug 'Shougo/vimshell.vim'
+Plug 'Shougo/vimproc.vim'
 Plug 'Valloric/YouCompleteMe', { 'do': './install.sh' }
 Plug 'airblade/vim-gitgutter'
 Plug 'altercation/vim-colors-solarized'
@@ -19,6 +21,9 @@ Plug 'kstep/gitgraph-vim-plugin'
 Plug 'mattn/emmet-vim'
 Plug 'mattn/gist-vim'
 Plug 'mattn/webapi-vim'
+Plug 'megaannum/forms'
+Plug 'megaannum/self'
+Plug 'megaannum/vimside'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/syntastic'
