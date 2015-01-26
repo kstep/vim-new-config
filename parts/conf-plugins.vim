@@ -70,3 +70,5 @@ let g:gitgutter_sign_modified_removed = '┃−'
 let g:EclimCompletionMethod = 'omnifunc'
 "let g:EclimJavaCompleteTmpFile = 0
 
+let g:racer_cmd = '/home/kstep/.vim/bundle/racer/target/release/racer'
+let $RUST_SRC_PATH = '/home/kstep/git/rust/rust/src'

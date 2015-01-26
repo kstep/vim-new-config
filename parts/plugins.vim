@@ -33,5 +33,6 @@ Plug 'tpope/vim-unimpaired'
 Plug 'tsukkee/unite-tag'
 Plug 'vim-scripts/Align'
 Plug 'wting/rust.vim'
+Plug 'phildawes/racer', { 'do': 'cargo build --release' }
 
 call plug#end()
