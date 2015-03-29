@@ -12,11 +12,14 @@ Plug 'altercation/vim-colors-solarized' " color scheme
 Plug 'bling/vim-airline' " nice status bar
 Plug 'chrisbra/csv.vim' " csv editing
 Plug 'derekwyatt/vim-scala' " basic scala convinience plugin
+Plug 'digitaltoad/vim-jade' " jade support
 Plug 'dkasak/manpageview' " man page viewer for vim
 Plug 'drmingdrmer/xptemplate' " templates with placeholders
 Plug 'embear/vim-localvimrc' " local vim configs handler
+Plug 'groenewege/vim-less' " less support
 "Plug 'jmcantrell/vim-virtualenv' " Python virtualenv support
 Plug 'junegunn/vim-plug' " heart of plugins system
+Plug 'kchmck/vim-coffee-script' " coffeescript support
 Plug 'kstep/gitgraph-vim-plugin' " git history graph with
 Plug 'mattn/emmet-vim' " generate html/css from css-like dsl
 Plug 'mattn/gist-vim' " gist publisher
