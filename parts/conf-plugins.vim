@@ -72,3 +72,5 @@ let g:EclimCompletionMethod = 'omnifunc'
 
 let g:racer_cmd = '/home/kstep/.vim/bundle/racer/target/release/racer'
 let $RUST_SRC_PATH = '/home/kstep/git/rust/rust/src'
+
+let g:solarized_termcolors = 256
