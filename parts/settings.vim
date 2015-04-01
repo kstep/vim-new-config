@@ -68,6 +68,6 @@ set undodir=~/.vim/undofiles
 set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 16
 set noicon
 
-set background=light
+set background=dark
 colorscheme solarized
 hi SignColumn ctermbg=lightgrey
