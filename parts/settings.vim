@@ -66,6 +66,8 @@ set undofile
 set undodir=~/.vim/undofiles
 
 set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 16
+set guioptions-=T
+set guioptions-=m
 set noicon
 
 set background=dark
