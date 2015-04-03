@@ -22,6 +22,7 @@ Plug 'groenewege/vim-less' " less support
 Plug 'junegunn/vim-plug' " heart of plugins system
 Plug 'kchmck/vim-coffee-script' " coffeescript support
 Plug 'kstep/gitgraph-vim-plugin' " git history graph with
+Plug 'lambdalisue/unite-grep-vcs' " unite subplugin to grep for vcs
 Plug 'mattn/emmet-vim' " generate html/css from css-like dsl
 Plug 'mattn/gist-vim' " gist publisher
 Plug 'mattn/webapi-vim' " required for mattn/gist
