@@ -6,6 +6,7 @@ Plug 'Shougo/neomru.vim' " most recently edited files, Shougo/unite subplugin
 Plug 'Shougo/unite.vim' " files opener with fuzzy filtering
 Plug 'Shougo/vimshell.vim' " required by Shougo/unite
 Plug 'Shougo/vimproc.vim' " required by Shougo/unite
+Plug 'SirVer/ultisnips' " YCM compatible snippets engine
 Plug 'Valloric/YouCompleteMe', { 'do': './install.sh' } " powerful autocompleter
 Plug 'airblade/vim-gitgutter' " per-line change status with git
 Plug 'altercation/vim-colors-solarized' " color scheme
@@ -15,9 +16,10 @@ Plug 'chrisbra/csv.vim' " csv editing
 Plug 'derekwyatt/vim-scala' " basic scala convinience plugin
 Plug 'digitaltoad/vim-jade' " jade support
 Plug 'dkasak/manpageview' " man page viewer for vim
-Plug 'drmingdrmer/xptemplate' " templates with placeholders
+"Plug 'drmingdrmer/xptemplate' " templates with placeholders
 Plug 'embear/vim-localvimrc' " local vim configs handler
 Plug 'groenewege/vim-less' " less support
+Plug 'honza/vim-snippets' " common snippets for ultisnips
 "Plug 'jmcantrell/vim-virtualenv' " Python virtualenv support
 Plug 'junegunn/vim-plug' " heart of plugins system
 Plug 'kchmck/vim-coffee-script' " coffeescript support
