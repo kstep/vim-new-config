@@ -67,6 +67,8 @@ let g:gitgutter_sign_modified         = '┃±'
 let g:gitgutter_sign_removed          = '┃…'
 let g:gitgutter_sign_modified_removed = '┃−'
 
+let g:UltiSnipsExpandTrigger = '<C-j>'
+
 let g:EclimCompletionMethod = 'omnifunc'
 "let g:EclimJavaCompleteTmpFile = 0
 
