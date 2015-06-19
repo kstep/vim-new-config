@@ -73,7 +73,7 @@ let g:EclimCompletionMethod = 'omnifunc'
 "let g:EclimJavaCompleteTmpFile = 0
 
 let g:racer_cmd = '/home/kstep/.vim/bundle/racer/target/release/racer'
-"let $RUST_SRC_PATH = '/home/kstep/git/rust/rust/src'
+let $RUST_SRC_PATH = '/home/kstep/.multirust/toolchains/stable/cargo/registry/src/'
 
 let g:solarized_termcolors = 256
 let g:solarized_visibility = "low"
