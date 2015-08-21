@@ -18,6 +18,7 @@ map <C-A-x> ciw<C-R>=getreg('')/2<CR><Esc>
 map <A-a> @="yyp"<CR>
 
 map <C-q> :quit<CR>
+map <F8> :Unite tab<CR>
 map <F9> :Unite tag<CR>
 map <F10> :Unite qf<CR>
 map <F11> :Unite file_mru<CR>
