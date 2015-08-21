@@ -29,6 +29,7 @@ Plug 'lambdalisue/unite-grep-vcs' " unite subplugin to grep for vcs
 Plug 'mattn/emmet-vim' " generate html/css from css-like dsl
 Plug 'mattn/gist-vim' " gist publisher
 Plug 'mattn/webapi-vim' " required for mattn/gist
+Plug 'phildawes/racer', { 'do': 'cargo build --release' } " rust autocompleter
 "Plug 'megaannum/forms' " required by megaannum/vimside
 "Plug 'megaannum/self'  " required by megaannum/vimside
 "Plug 'megaannum/vimside' " ENSIME support for vim (vim scala ide)
@@ -42,6 +43,5 @@ Plug 'tpope/vim-unimpaired' " handle a lot of coupled operations
 Plug 'tsukkee/unite-tag' " Shougo/unite subplugin to list tags
 Plug 'vim-scripts/Align' " align code
 Plug 'wting/rust.vim' " rust syntax highlighting support
-Plug 'phildawes/racer', { 'do': 'cargo build --release' } " rust autocompleter
 
 call plug#end()
