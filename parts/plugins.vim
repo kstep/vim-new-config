@@ -37,6 +37,7 @@ Plug 'nathanaelkane/vim-indent-guides' " indent guides
 Plug 'scrooloose/nerdcommenter' " comment/uncomment lines
 Plug 'scrooloose/syntastic' " syntax checker with many languages support
 Plug 'sgur/unite-qf' " Shougo/unite subplugin to list quickfind entries
+Plug 'sjl/gundo.vim' " Graphical undo
 Plug 'terryma/vim-multiple-cursors' " edit multiple entries
 Plug 'tpope/vim-fugitive' " git commands
 Plug 'tpope/vim-unimpaired' " handle a lot of coupled operations
