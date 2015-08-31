@@ -2,7 +2,6 @@ filetype off
 set rtp+=~/.vim/bundle/vim-plug
 call plug#begin('~/.vim/bundle')
 
-Plug 'rodrigorm/golimar' " Skype client for Vim
 Plug 'Shougo/neomru.vim' " most recently edited files, Shougo/unite subplugin
 Plug 'Shougo/unite.vim' " files opener with fuzzy filtering
 Plug 'Shougo/vimshell.vim' " required by Shougo/unite
