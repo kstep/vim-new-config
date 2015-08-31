@@ -10,6 +10,7 @@ Plug 'SirVer/ultisnips' " YCM compatible snippets engine
 Plug 'Valloric/YouCompleteMe', { 'do': './install.sh' } " powerful autocompleter
 Plug 'airblade/vim-gitgutter' " per-line change status with git
 Plug 'altercation/vim-colors-solarized' " color scheme
+Plug 'benmills/vimux' " Control Tmux from Vim
 Plug 'bling/vim-airline' " nice status bar
 Plug 'cespare/vim-toml' " toml format support
 Plug 'chrisbra/csv.vim' " csv editing
