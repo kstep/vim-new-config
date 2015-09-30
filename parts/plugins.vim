@@ -19,7 +19,7 @@ Plug 'derekwyatt/vim-scala' " basic scala convinience plugin
 Plug 'digitaltoad/vim-jade' " jade support
 Plug 'dkasak/manpageview' " man page viewer for vim
 Plug 'embear/vim-localvimrc' " local vim configs handler
-Plug 'ensime/ensime-vim' " ENSIME support fro vim
+Plug 'kstep/ensime-vim' " ENSIME support fro vim
 Plug 'groenewege/vim-less' " less support
 Plug 'honza/vim-snippets' " common snippets for ultisnips
 Plug 'junegunn/vim-plug' " heart of plugins system
