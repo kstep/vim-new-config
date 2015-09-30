@@ -19,10 +19,10 @@ map <A-a> @="yyp"<CR>
 
 map <C-q> :quit<CR>
 map <F8> :Unite tab<CR>
-map <F9> :Unite tag<CR>
+map <F9> :Unite -buffer-name=tag -resume tag<CR>
 map <F10> :Unite qf<CR>
-map <F11> :Unite file_mru<CR>
-map <F12> :Unite file_rec<CR>
+map <F11> :Unite -buffer-name=file_mru -resume file_mru<CR>
+map <F12> :Unite -buffer-name=file_res -resume file_rec<CR>
 
 map gb :Unite tab<CR>
 
