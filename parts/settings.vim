@@ -70,6 +70,6 @@ set guioptions-=T
 set guioptions-=m
 set noicon
 
-set background=dark
+set background=light
 colorscheme solarized
 hi SignColumn ctermbg=lightgrey
