@@ -77,4 +77,3 @@ let $RUST_SRC_PATH = '/home/kstep/.multirust/toolchains/stable/cargo/registry/sr
 
 "let g:solarized_termcolors = 256
 let g:solarized_visibility = "low"
-set list

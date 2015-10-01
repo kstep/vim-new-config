@@ -30,6 +30,7 @@ set expandtab
 set autoindent
 set smartindent
 set showmatch
+set list
 set listchars=tab:»┄,eol:↲,trail:·,precedes:«,extends:»
 set backspace=start,eol,indent
 
