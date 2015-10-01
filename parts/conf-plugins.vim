@@ -75,11 +75,6 @@ let g:EclimCompletionMethod = 'omnifunc'
 let g:racer_cmd = '/home/kstep/.vim/bundle/racer/target/release/racer'
 let $RUST_SRC_PATH = '/home/kstep/.multirust/toolchains/stable/cargo/registry/src/'
 
-let g:ycm_filetype_blacklist = {
-            \ 'unite': 1,
-            \ 'scala': 1
-            \}
-
 let g:solarized_termcolors = 256
 let g:solarized_visibility = "low"
 set list
