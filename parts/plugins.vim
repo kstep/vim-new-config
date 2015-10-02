@@ -4,7 +4,7 @@ call plug#begin('~/.vim/bundle')
 
 Plug 'Shougo/neomru.vim' " most recently edited files, Shougo/unite subplugin
 Plug 'Shougo/unite.vim' " files opener with fuzzy filtering
-Plug 'Shougo/vimproc.vim' " required by Shougo/unite
+Plug 'Shougo/vimproc.vim', { 'do': 'make' } " required by Shougo/unite
 Plug 'Shougo/vimshell.vim' " required by Shougo/unite
 Plug 'SirVer/ultisnips' " YCM compatible snippets engine
 Plug 'Valloric/YouCompleteMe', { 'do': 'python2 ./install.py' } " powerful autocompleter
