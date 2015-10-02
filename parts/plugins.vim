@@ -7,7 +7,7 @@ Plug 'Shougo/unite.vim' " files opener with fuzzy filtering
 Plug 'Shougo/vimproc.vim' " required by Shougo/unite
 Plug 'Shougo/vimshell.vim' " required by Shougo/unite
 Plug 'SirVer/ultisnips' " YCM compatible snippets engine
-Plug 'Valloric/YouCompleteMe', { 'do': './install.sh' } " powerful autocompleter
+Plug 'Valloric/YouCompleteMe', { 'do': 'python2 ./install.py' } " powerful autocompleter
 Plug 'airblade/vim-gitgutter' " per-line change status with git
 Plug 'altercation/vim-colors-solarized' " color scheme
 Plug 'benmills/vimux' " control Tmux from Vim
