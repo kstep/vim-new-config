@@ -20,6 +20,7 @@ Plug 'digitaltoad/vim-jade' " jade support
 Plug 'dkasak/manpageview' " man page viewer for vim
 Plug 'embear/vim-localvimrc' " local vim configs handler
 Plug 'kstep/ensime-vim' " ENSIME support fro vim
+Plug 'geverding/vim-hocon' " Play config format (HOCON) syntax highlighting
 Plug 'groenewege/vim-less' " less support
 Plug 'honza/vim-snippets' " common snippets for ultisnips
 Plug 'junegunn/vim-plug' " heart of plugins system
