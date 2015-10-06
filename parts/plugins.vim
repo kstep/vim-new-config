@@ -48,4 +48,7 @@ Plug 'wting/rust.vim' " rust syntax highlighting support
 "Plug 'drmingdrmer/xptemplate' " templates with placeholders
 "Plug 'jmcantrell/vim-virtualenv' " Python virtualenv support
 
+Plug 'elzr/vim-json' " better vim checks and highlighting
+Plug 'kana/vim-smartinput'
+
 call plug#end()
