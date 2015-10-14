@@ -1,1 +1,1 @@
-com! -nargs=1 G !xdg-open "https://google.com/search?q=<args>"
+com! -bang -nargs=1 G exec "!xdg-open \"https://google.com/search?".("<bang>" == "!" ? "btnI=1&" : "")."q=<args>\""
