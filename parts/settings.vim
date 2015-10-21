@@ -58,6 +58,7 @@ set linebreak
 set nojoinspaces
 
 set sessionoptions=buffers,curdir,folds,tabpages,winsize
+set viminfo+=n~/.cache/vim/viminfo
 set wildmenu
 
 set modeline
