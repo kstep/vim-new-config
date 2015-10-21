@@ -51,5 +51,6 @@ Plug 'wting/rust.vim' " rust syntax highlighting support
 Plug 'elzr/vim-json' " better vim checks and highlighting
 Plug 'kana/vim-smartinput'
 Plug 'shinnya/vim-mplayer'
+Plug 'krisajenkins/vim-pipe'
 
 call plug#end()
