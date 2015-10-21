@@ -14,7 +14,7 @@ set ignorecase
 set smartcase
 set incsearch
 
-set keymap=russian-jcukenwin
+"set keymap=russian-jcukenwin
 set spelllang=en,ru
 set imsearch=0
 set iminsert=0
