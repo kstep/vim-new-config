@@ -1,6 +1,5 @@
 filetype off
-set rtp+=~/.config/vim/bundle/vim-plug
-call plug#begin('~/.config/vim/bundle')
+call plug#begin()
 
 Plug 'Shougo/neomru.vim' " most recently edited files, Shougo/unite subplugin
 Plug 'Shougo/unite.vim' " files opener with fuzzy filtering
