@@ -17,13 +17,16 @@ Plug 'chrisbra/unicode.vim' " unicode chars search and ops
 Plug 'derekwyatt/vim-scala' " basic scala convinience plugin
 Plug 'digitaltoad/vim-jade' " jade support
 Plug 'dkasak/manpageview' " man page viewer for vim
+Plug 'elzr/vim-json' " better vim checks and highlighting
 Plug 'embear/vim-localvimrc' " local vim configs handler
-Plug 'kstep/ensime-vim' " ENSIME support fro vim
 Plug 'geverding/vim-hocon' " Play config format (HOCON) syntax highlighting
 Plug 'groenewege/vim-less' " less support
 Plug 'honza/vim-snippets' " common snippets for ultisnips
 Plug 'junegunn/vim-plug' " heart of plugins system
+Plug 'kana/vim-smartinput' " context-dependent quotes autoclose
 Plug 'kchmck/vim-coffee-script' " coffeescript support
+Plug 'krisajenkins/vim-pipe' " pipe buffer through a filter and show output in a split (mongo, psql etc)
+Plug 'kstep/ensime-vim' " ENSIME support fro vim
 Plug 'kstep/gitgraph-vim-plugin' " git history graph with
 Plug 'lambdalisue/unite-grep-vcs' " unite subplugin to grep for vcs
 Plug 'majutsushi/tagbar' " in-file navigation by tags
@@ -37,17 +40,14 @@ Plug 'phildawes/racer', { 'do': 'cargo build --release' } " rust autocompleter
 Plug 'scrooloose/nerdcommenter' " comment/uncomment lines
 Plug 'scrooloose/syntastic' " syntax checker with many languages support
 Plug 'sgur/unite-qf' " Shougo/unite subplugin to list quickfind entries
+Plug 'shinnya/vim-mplayer' " mplayer integration
 Plug 'sjl/gundo.vim' " graphical undo
 Plug 'terryma/vim-multiple-cursors' " edit multiple entries
 Plug 'tpope/vim-fugitive' " git commands
+Plug 'tpope/vim-surround' " surround text with different symbols
 Plug 'tpope/vim-unimpaired' " handle a lot of coupled operations
 Plug 'tsukkee/unite-tag' " Shougo/unite subplugin to list tags
 Plug 'vim-scripts/Align' " align code
 Plug 'wting/rust.vim' " rust syntax highlighting support
-
-Plug 'elzr/vim-json' " better vim checks and highlighting
-Plug 'kana/vim-smartinput'
-Plug 'shinnya/vim-mplayer'
-Plug 'krisajenkins/vim-pipe'
 
 call plug#end()
