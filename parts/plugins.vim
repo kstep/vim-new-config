@@ -44,8 +44,6 @@ Plug 'tpope/vim-unimpaired' " handle a lot of coupled operations
 Plug 'tsukkee/unite-tag' " Shougo/unite subplugin to list tags
 Plug 'vim-scripts/Align' " align code
 Plug 'wting/rust.vim' " rust syntax highlighting support
-"Plug 'drmingdrmer/xptemplate' " templates with placeholders
-"Plug 'jmcantrell/vim-virtualenv' " Python virtualenv support
 
 Plug 'elzr/vim-json' " better vim checks and highlighting
 Plug 'kana/vim-smartinput'
