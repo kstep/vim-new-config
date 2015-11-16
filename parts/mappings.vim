@@ -29,6 +29,8 @@ map gb :Unite tab<CR>
 vmap ,aa :Align =><CR>
 vmap ,a= :Align =<CR>
 
+map g+ :execute 'tabedit' getreg('+')<CR>
+
 nmap ,fc :if stridx(&syntax,'.conflict')<0<Bar>setl syntax+=.conflict<Bar>endif<CR>:vimgrep "^<<<<<<<" %:p<CR>:copen<CR><CR>
 
 "imap <C-\> <C-^>
