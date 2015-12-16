@@ -49,5 +49,6 @@ Plug 'tpope/vim-unimpaired' " handle a lot of coupled operations
 Plug 'tsukkee/unite-tag' " Shougo/unite subplugin to list tags
 Plug 'vim-scripts/Align' " align code
 Plug 'wting/rust.vim' " rust syntax highlighting support
+Plug 'easymotion/vim-easymotion'
 
 call plug#end()
