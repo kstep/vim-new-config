@@ -67,7 +67,7 @@ set noswapfile
 set undofile
 set undodir=~/.vim/undofiles
 
-set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 14
+set guifont=Noto\ Mono\ 12
 set guioptions-=T
 set guioptions-=m
 set noicon
