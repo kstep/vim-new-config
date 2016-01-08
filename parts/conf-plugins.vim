@@ -77,3 +77,7 @@ let $RUST_SRC_PATH = system("multirust show-override | awk -F': ' '/location: / 
 
 "let g:solarized_termcolors = 256
 let g:solarized_visibility = "low"
+
+let g:languagetool_jar = '/usr/share/java/languagetool/languagetool-commandline.jar'
+let g:languagetool_disable_rules = 'WHITESPACE_RULE,EN_QUOTES,MORFOLOGIK_RULE_RU_RU,COMMA_PARENTHESIS_WHITESPACE,SENTENCE_WHITESPACE,UPPERCASE_SENTENCE_START,EN_UNPAIRED_BRACKETS,RU_UNPAIRED_BRACKETS'
+

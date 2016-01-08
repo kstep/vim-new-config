@@ -51,4 +51,6 @@ Plug 'vim-scripts/Align' " align code
 Plug 'wting/rust.vim' " rust syntax highlighting support
 Plug 'easymotion/vim-easymotion'
 
+Plug 'dpelle/vim-LanguageTool'
+
 call plug#end()
