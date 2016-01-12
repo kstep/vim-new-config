@@ -72,8 +72,8 @@ let g:UltiSnipsExpandTrigger = '<C-j>'
 let g:EclimCompletionMethod = 'omnifunc'
 "let g:EclimJavaCompleteTmpFile = 0
 
-let g:racer_cmd = '/home/kstep/.vim/bundle/racer/target/release/racer'
-let $RUST_SRC_PATH = system("multirust show-override | awk -F': ' '/location: / { printf \"%s\", $3 }'") . '/cargo/registry/src/'
+let $RUST_SRC_PATH = $HOME . '/.multirust/src/rust'
+let g:ycm_rust_src_path = $RUST_SRC_PATH
 
 "let g:solarized_termcolors = 256
 let g:solarized_visibility = "low"
