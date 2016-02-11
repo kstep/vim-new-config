@@ -12,29 +12,29 @@ Plug 'altercation/vim-colors-solarized' " color scheme
 Plug 'benmills/vimux' " control Tmux from Vim
 Plug 'bling/vim-airline' " nice status bar
 Plug 'vim-airline/vim-airline-themes' " airline plugins
-Plug 'cespare/vim-toml' " toml format support
-Plug 'chrisbra/csv.vim' " csv editing
+Plug 'cespare/vim-toml', { 'for': 'toml' } " toml format support
+Plug 'chrisbra/csv.vim', { 'for': 'csv' } " csv editing
 Plug 'chrisbra/unicode.vim' " unicode chars search and ops
-Plug 'derekwyatt/vim-scala' " basic scala convinience plugin
-Plug 'digitaltoad/vim-jade' " jade support
+Plug 'derekwyatt/vim-scala', { 'for': 'scala' } " basic scala convinience plugin
+Plug 'digitaltoad/vim-jade', { 'for': 'jade' } " jade support
 Plug 'dkasak/manpageview' " man page viewer for vim
-Plug 'elzr/vim-json' " better vim checks and highlighting
+Plug 'elzr/vim-json', { 'for': 'json' } " better vim checks and highlighting
 Plug 'embear/vim-localvimrc' " local vim configs handler
-Plug 'geverding/vim-hocon' " Play config format (HOCON) syntax highlighting
+Plug 'geverding/vim-hocon', { 'for': 'hocon' } " Play config format (HOCON) syntax highlighting
 Plug 'groenewege/vim-less' " less support
 Plug 'honza/vim-snippets' " common snippets for ultisnips
 Plug 'junegunn/vim-plug' " heart of plugins system
 Plug 'kana/vim-smartinput' " context-dependent quotes autoclose
-Plug 'kchmck/vim-coffee-script' " coffeescript support
+Plug 'kchmck/vim-coffee-script', { 'for': 'coffee' } " coffeescript support
 Plug 'krisajenkins/vim-pipe' " pipe buffer through a filter and show output in a split (mongo, psql etc)
-Plug 'ensime/ensime-vim' " ENSIME support fro vim
+Plug 'ensime/ensime-vim', { 'for': 'scala' } " ENSIME support fro vim
 Plug 'kstep/gitgraph-vim-plugin' " git history graph with
 Plug 'lambdalisue/unite-grep-vcs' " unite subplugin to grep for vcs
 "Plug 'majutsushi/tagbar' " in-file navigation by tags
 Plug 'mattn/emmet-vim' " generate html/css from css-like dsl
 Plug 'mattn/gist-vim' " gist publisher
 Plug 'mattn/webapi-vim' " required for mattn/gist
-Plug 'mpollmeier/vim-scalaConceal' " nice symbols in scala files
+Plug 'mpollmeier/vim-scalaConceal', { 'for': 'scala' } " nice symbols in scala files
 Plug 'myusuf3/numbers.vim' " adaptive line numbers gutter
 Plug 'nathanaelkane/vim-indent-guides' " indent guides
 "Plug 'phildawes/racer', { 'do': 'cargo build --release' } " rust autocompleter
@@ -49,7 +49,7 @@ Plug 'tpope/vim-surround' " surround text with different symbols
 Plug 'tpope/vim-unimpaired' " handle a lot of coupled operations
 Plug 'tsukkee/unite-tag' " Shougo/unite subplugin to list tags
 Plug 'vim-scripts/Align' " align code
-Plug 'rust-lang/rust.vim' " rust syntax highlighting support
+Plug 'rust-lang/rust.vim', { 'for': 'rust' } " rust syntax highlighting support
 Plug 'easymotion/vim-easymotion'
 
 Plug 'editorconfig/editorconfig-vim'
