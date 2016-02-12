@@ -51,8 +51,9 @@ let g:gitgraph_layout = { 'g':[20,'la'], 's':[-30,'tl'], 't':[5,'rb'], 'd':[0,'b
 
 
 let g:user_zen_settings = { 'indentation': '    ', 'mako': { 'extends': 'html' }, 'less': { 'extends': 'css' } }
-let g:indent_guides_guide_size = 1
-let g:indent_guides_start_level = 2
+"let g:indent_guides_guide_size = 1
+"let g:indent_guides_start_level = 2
+let g:indentLine_char = '⸽'
 
 let g:tagbar_type_php = {
             \ 'ctagstype': 'PHP',

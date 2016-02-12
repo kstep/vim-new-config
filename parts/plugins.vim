@@ -49,7 +49,7 @@ Plug 'mattn/gist-vim' " gist publisher
 Plug 'mattn/webapi-vim' " required for mattn/gist
 Plug 'mpollmeier/vim-scalaConceal', { 'for': 'scala' } " nice symbols in scala files
 Plug 'myusuf3/numbers.vim' " adaptive line numbers gutter
-Plug 'nathanaelkane/vim-indent-guides', { 'on': ['IndentGuidesEnable', 'IndentGuidesToggle'] } " indent guides
+Plug 'Yggdroot/indentLine' " indent guides
 "Plug 'phildawes/racer', { 'do': 'cargo build --release' } " rust autocompleter
 Plug 'scrooloose/nerdcommenter' " comment/uncomment lines
 Plug 'scrooloose/syntastic' " syntax checker with many languages support
