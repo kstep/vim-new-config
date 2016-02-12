@@ -57,21 +57,7 @@ Plug 'sgur/unite-qf', { 'on': 'Unite' } " Shougo/unite subplugin to list quickfi
 "Plug 'shinnya/vim-mplayer' " mplayer integration
 Plug 'sjl/gundo.vim', { 'on': 'GundoShow' } " graphical undo
 Plug 'terryma/vim-multiple-cursors' " edit multiple entries
-Plug 'tpope/vim-fugitive', { 'on': [
-            \ 'Git',
-            \ 'Gstatus',
-            \ 'Gcd', 'Glcd',
-            \ 'Gcommit', 'Gmerge',
-            \ 'Gpull', 'Gpush', 'Gfetch',
-            \ 'Ggrep', 'Glgrep',
-            \ 'Gblame', 'Glog', 'Gllog',
-            \ 'Gedit', 'Gpedit', 'Gtabedit',
-            \ 'Gsplit', 'Gvsplit',
-            \ 'Gread', 'Gwrite', 'Gwq',
-            \ 'Gdiff', 'Gsdiff', 'Gvdiff',
-            \ 'Gmove', 'Gremove',
-            \ 'Gbrowse'
-            \ ] } " git commands
+Plug 'tpope/vim-fugitive' " git commands
 Plug 'tpope/vim-surround' " surround text with different symbols
 Plug 'tpope/vim-unimpaired' " handle a lot of coupled operations
 Plug 'tsukkee/unite-tag', { 'on': 'Unite' } " Shougo/unite subplugin to list tags
