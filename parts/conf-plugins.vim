@@ -54,6 +54,7 @@ let g:user_zen_settings = { 'indentation': '    ', 'mako': { 'extends': 'html' }
 "let g:indent_guides_guide_size = 1
 "let g:indent_guides_start_level = 2
 let g:indentLine_char = '⸽'
+let g:indentLine_concealcursor = ''
 
 let g:tagbar_type_php = {
             \ 'ctagstype': 'PHP',
