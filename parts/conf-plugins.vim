@@ -77,6 +77,9 @@ let g:EclimCompletionMethod = 'omnifunc'
 let $RUST_SRC_PATH = $HOME . '/.multirust/src/rust'
 let g:ycm_rust_src_path = $RUST_SRC_PATH
 
+let g:neomru#file_mru_path = $HOME . '/.cache/vim/neomru/file'
+let g:neomru#directory_mru_path = $HOME . '/.cache/vim/neomru/directory'
+
 "let g:solarized_termcolors = 256
 let g:solarized_visibility = "low"
 

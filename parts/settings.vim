@@ -65,7 +65,7 @@ set modeline
 set nobackup nowritebackup
 set noswapfile
 set undofile
-set undodir=~/.vim/undofiles
+set undodir=~/.cache/vim/undofiles
 
 set guifont=Noto\ Mono\ 12
 set guioptions-=T
