@@ -75,7 +75,7 @@ let g:UltiSnipsExpandTrigger = '<C-j>'
 let g:EclimCompletionMethod = 'omnifunc'
 "let g:EclimJavaCompleteTmpFile = 0
 
-let $RUST_SRC_PATH = $HOME . '/.multirust/src/rust'
+let $RUST_SRC_PATH = $HOME . '/.multirust/src/rust/src'
 let g:ycm_rust_src_path = $RUST_SRC_PATH
 
 let g:neomru#file_mru_path = $HOME . '/.cache/vim/neomru/file'
