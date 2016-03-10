@@ -43,6 +43,7 @@ let g:po_translator = 'Konstantin Stepanov <me@kstep.me>'
 let g:syntastic_enable_signs = 1
 let g:syntastic_warning_symbol = '●'
 let g:syntastic_error_symbol = '●'
+let g:syntastic_full_redraws = 0
 
 let g:localvimrc_ask = 0
 let g:localvimrc_sandbox = 0
