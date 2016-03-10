@@ -47,7 +47,7 @@ Plug 'lambdalisue/unite-grep-vcs', { 'on': 'Unite' } " unite subplugin to grep f
 Plug 'mattn/emmet-vim', { 'for': ['html', 'css'] } " generate html/css from css-like dsl
 Plug 'mattn/gist-vim' " gist publisher
 Plug 'mattn/webapi-vim' " required for mattn/gist
-Plug 'mpollmeier/vim-scalaConceal', { 'for': 'scala' } " nice symbols in scala files
+"Plug 'mpollmeier/vim-scalaConceal', { 'for': 'scala' } " nice symbols in scala files
 Plug 'myusuf3/numbers.vim' " adaptive line numbers gutter
 Plug 'Yggdroot/indentLine' " indent guides
 "Plug 'phildawes/racer', { 'do': 'cargo build --release' } " rust autocompleter
