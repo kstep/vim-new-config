@@ -9,7 +9,7 @@ set helplang=ru
 set icon iconstring=Vim
 set ttimeoutlen=50
 
-set nohlsearch
+set hlsearch
 set ignorecase
 set smartcase
 set incsearch

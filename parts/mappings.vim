@@ -46,4 +46,6 @@ cabbr Wq wq
 cabbr WQ wq
 cabbr Tabe tabe
 
+nnoremap <silent> <CR> :nohlsearch<CR><CR>
+
 command! WW silent! write !sudo tee %:p > /dev/null
