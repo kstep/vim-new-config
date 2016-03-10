@@ -78,6 +78,7 @@ let g:EclimCompletionMethod = 'omnifunc'
 
 let $RUST_SRC_PATH = $HOME . '/.multirust/src/rust/src'
 let g:ycm_rust_src_path = $RUST_SRC_PATH
+let g:ycm_path_to_python_interpreter = '/usr/bin/python3'
 
 let g:neomru#file_mru_path = $HOME . '/.cache/vim/neomru/file'
 let g:neomru#directory_mru_path = $HOME . '/.cache/vim/neomru/directory'
