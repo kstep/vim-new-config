@@ -46,6 +46,9 @@ cabbr Wq wq
 cabbr WQ wq
 cabbr Tabe tabe
 
+" find current word with git grep
+map ,s :exec 'Unite grep/git:/ -input=' . expand('<cword>')<CR>
+
 nnoremap <silent> <CR> :nohlsearch<CR><CR>
 
 command! WW silent! write !sudo tee %:p > /dev/null
