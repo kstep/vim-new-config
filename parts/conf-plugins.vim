@@ -89,3 +89,5 @@ let g:solarized_visibility = "low"
 let g:languagetool_jar = '/usr/share/java/languagetool/languagetool-commandline.jar'
 let g:languagetool_disable_rules = 'WHITESPACE_RULE,EN_QUOTES,MORFOLOGIK_RULE_RU_RU,COMMA_PARENTHESIS_WHITESPACE,SENTENCE_WHITESPACE,UPPERCASE_SENTENCE_START,EN_UNPAIRED_BRACKETS,RU_UNPAIRED_BRACKETS'
 
+let g:QQ_collection_list = $HOME . '/.cache/vim/QQ/collections'
+let g:QQ_default_collection = $HOME . '/.cache/vim/QQ/default'

@@ -69,5 +69,6 @@ Plug 'mmisono/unite-mpc', { 'on': 'Unite' }
 Plug 'mmisono/mpc.vim'
 Plug 'aquach/vim-http-client'
 Plug 'dpelle/vim-LanguageTool'
+Plug 'nicwest/QQ.vim'
 
 call plug#end()
