@@ -1,12 +1,18 @@
 filetype off
 call plug#begin()
 
+Plug 'leafgarland/typescript-vim'
+Plug 'tpope/vim-dispatch'
+Plug 'freitass/todo.txt-vim'
+Plug 'oblitum/rainbow'
+Plug 'tailhook/khufu', { 'rtp': 'vim' }
+
 Plug 'Shougo/neomru.vim', { 'on': 'Unite' } " most recently edited files, Shougo/unite subplugin
 Plug 'Shougo/unite.vim', { 'on': 'Unite' } " files opener with fuzzy filtering
 Plug 'Shougo/vimproc.vim', { 'do': 'make' } " required by Shougo/unite
 Plug 'Shougo/vimshell.vim' " required by Shougo/unite
 Plug 'SirVer/ultisnips' " YCM compatible snippets engine
-Plug 'Valloric/YouCompleteMe', { 'do': 'python3 ./install.py --racer-completer' } " powerful autocompleter
+"Plug 'Valloric/YouCompleteMe', { 'do': 'python3 ./install.py --racer-completer' } " powerful autocompleter
 Plug 'airblade/vim-gitgutter' " per-line change status with git
 Plug 'altercation/vim-colors-solarized' " color scheme
 Plug 'benmills/vimux', { 'on': [

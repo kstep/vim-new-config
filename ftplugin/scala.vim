@@ -7,3 +7,5 @@ noremap <buffer> <silent> gD :EnDeclaration<CR>
 imap <buffer> => ⇒
 imap <buffer> <- ←
 imap <buffer> -> →
+
+call rainbow#load()
