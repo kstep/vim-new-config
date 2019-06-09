@@ -12,7 +12,7 @@ Plug 'Shougo/unite.vim', { 'on': 'Unite' } " files opener with fuzzy filtering
 Plug 'Shougo/vimproc.vim', { 'do': 'make' } " required by Shougo/unite
 Plug 'Shougo/vimshell.vim' " required by Shougo/unite
 Plug 'SirVer/ultisnips' " YCM compatible snippets engine
-"Plug 'Valloric/YouCompleteMe', { 'do': 'python3 ./install.py --racer-completer' } " powerful autocompleter
+Plug 'Valloric/YouCompleteMe', { 'do': 'python3 ./install.py --rust-completer' } " powerful autocompleter
 Plug 'airblade/vim-gitgutter' " per-line change status with git
 Plug 'altercation/vim-colors-solarized' " color scheme
 Plug 'benmills/vimux', { 'on': [
@@ -56,7 +56,6 @@ Plug 'mattn/webapi-vim' " required for mattn/gist
 "Plug 'mpollmeier/vim-scalaConceal', { 'for': 'scala' } " nice symbols in scala files
 Plug 'myusuf3/numbers.vim' " adaptive line numbers gutter
 Plug 'Yggdroot/indentLine' " indent guides
-"Plug 'phildawes/racer', { 'do': 'cargo build --release' } " rust autocompleter
 Plug 'scrooloose/nerdcommenter' " comment/uncomment lines
 Plug 'scrooloose/syntastic' " syntax checker with many languages support
 Plug 'sgur/unite-qf', { 'on': 'Unite' } " Shougo/unite subplugin to list quickfind entries

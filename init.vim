@@ -1,9 +1,18 @@
 " .vimrc file
 
-set rtp-=~/.vim rtp^=~/.config/vim
 set nocompatible
 
-for file in glob($HOME . '/.config/vim/parts/*.vim', 0, 1)
+if has('nvim')
+    let $VIM_KIND = 'nvim'
+else
+    let $VIM_KIND = 'vim'
+    set rtp-=~/.vim rtp^=~/.config/vim
+endif
+
+let $VIM_CONFIG = fnamemodify(resolve(expand('<sfile>:p')), ':h')
+let $VIM_CACHE = $HOME . '/.cache/' . $VIM_KIND
+
+for file in glob($VIM_CONFIG . '/parts/*.vim', 0, 1)
     exec 'source' file
 endfor
 

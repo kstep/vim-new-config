@@ -58,14 +58,14 @@ set linebreak
 set nojoinspaces
 
 set sessionoptions=buffers,curdir,folds,tabpages,winsize
-set viminfo+=n~/.cache/vim/viminfo
+let &viminfo .= ',n' . $VIM_CACHE . '/viminfo'
 set wildmenu
 
 set modeline
 set nobackup nowritebackup
 set noswapfile
 set undofile
-set undodir=~/.cache/vim/undofiles
+let &undodir = $VIM_CACHE . '/undofiles'
 
 set guifont=Noto\ Mono\ 12
 set guioptions-=T

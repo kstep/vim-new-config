@@ -76,12 +76,12 @@ let g:UltiSnipsExpandTrigger = '<C-j>'
 let g:EclimCompletionMethod = 'omnifunc'
 "let g:EclimJavaCompleteTmpFile = 0
 
-let $RUST_SRC_PATH = $HOME . '/.multirust/src/rust/src'
+let $RUST_SRC_PATH = get(systemlist('rustc --print sysroot'), 0) . '/lib/rustlib/src/rust/src'
 let g:ycm_rust_src_path = $RUST_SRC_PATH
 let g:ycm_path_to_python_interpreter = '/usr/bin/python3'
 
-let g:neomru#file_mru_path = $HOME . '/.cache/vim/neomru/file'
-let g:neomru#directory_mru_path = $HOME . '/.cache/vim/neomru/directory'
+let g:neomru#file_mru_path = $VIM_CACHE . '/neomru/file'
+let g:neomru#directory_mru_path = $VIM_CACHE . '/neomru/directory'
 
 "let g:solarized_termcolors = 256
 let g:solarized_visibility = "low"
@@ -89,5 +89,5 @@ let g:solarized_visibility = "low"
 let g:languagetool_jar = '/usr/share/java/languagetool/languagetool-commandline.jar'
 let g:languagetool_disable_rules = 'WHITESPACE_RULE,EN_QUOTES,MORFOLOGIK_RULE_RU_RU,COMMA_PARENTHESIS_WHITESPACE,SENTENCE_WHITESPACE,UPPERCASE_SENTENCE_START,EN_UNPAIRED_BRACKETS,RU_UNPAIRED_BRACKETS'
 
-let g:QQ_collection_list = $HOME . '/.cache/vim/QQ/collections'
-let g:QQ_default_collection = $HOME . '/.cache/vim/QQ/default'
+let g:QQ_collection_list = $VIM_CACHE . '/QQ/collections'
+let g:QQ_default_collection = $VIM_CACHE . '/QQ/default'
