@@ -4,7 +4,6 @@ call plug#begin()
 Plug 'leafgarland/typescript-vim'
 Plug 'tpope/vim-dispatch'
 Plug 'freitass/todo.txt-vim'
-Plug 'oblitum/rainbow'
 Plug 'tailhook/khufu', { 'rtp': 'vim' }
 
 Plug 'Shougo/neomru.vim', { 'on': 'Unite' } " most recently edited files, Shougo/unite subplugin
