@@ -7,6 +7,7 @@ set helplang=ru
 "set t_Co=256
 "set t_IS=]0; t_IE=
 set icon iconstring=Vim
+set title
 set ttimeoutlen=50
 
 set hlsearch
